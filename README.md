@@ -1,2 +1,7 @@
 # parser
-parse goods from site
+Парсер, который собирает товары с указанных категорий и сохраняет их базу данных.
+
+Файл миграции, для создания таблицы хранения товаров - \database\migrations\2019_03_23_123851_create_parser_table.php
+Настройки парсера - \config\parser.php
+Для запуска парсера, запустить команду "php artisan pasreGoods"
+
